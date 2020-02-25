@@ -2,7 +2,6 @@ import { Component, enableProdMode } from '@angular/core';
 import { Pipe, PipeTransform } from '@angular/core';
 
 enableProdMode();
-var GC = window['GC'];
 
 @Component({
     selector: 'app-root',

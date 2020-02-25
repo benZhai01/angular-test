@@ -2,7 +2,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule, CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
 import {FormsModule} from '@angular/forms';
 
-import {InputManModule} from "../inputman/GcInputMan.module";
+import {InputManModule} from "@grapecity/inputman.angular";
 import {AppComponent,NumberArrayConvertorPipe,NumberConvertorPipe,StringArrayConvertorPipe,DateConvertorPipe,BooleanConvertorPipe,FlagEnumConvertorPipe} from './app.component';
 
 @NgModule({
